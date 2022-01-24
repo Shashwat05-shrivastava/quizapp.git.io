@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    margin: 250px;
+    border: 1px solid gray;
+    width: 40%;
+    padding: 20px;
+    background-color: floralwhite;
+    box-shadow: 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+}
+li{
+    list-style: none;
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+}
+button{
+    padding: 8px;
+    margin: 40px;
+    color: white;
+    background-color: darkgreen;
+    outline:none;
+    border:none;
+    width:20%;
+    
+}
+input{
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+}
+
+
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showScore b
+
+.ScoreArea{
+    display: none;
+}
